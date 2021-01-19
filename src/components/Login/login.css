@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(39, 41, 68);
+}
+.content {
+  display: flex;
+  height: 40rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content input {
+  margin: 15px 0px;
+  width: 50vh;
+  height: 8vh;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+.content button {
+  margin: 15px 0px;
+  width: 50vh;
+  height: 8vh;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(45, 117, 96);
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.content p {
+  font-size: 5rem;
+  margin-bottom: 30px;
+  color: white;
+}
